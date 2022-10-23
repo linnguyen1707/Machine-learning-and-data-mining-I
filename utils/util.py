@@ -1,5 +1,17 @@
 import cv2
 import numpy as np
+import tensorflow as tf
+from tensorflow import keras
+from numpy import asarray
+def load_image(img):
+    # convert to array
+    img = asarray(img)
+    # reshape into a single sample with 3 channels
+    img = img.reshape(1, 32, 32, 3)
+    # prepare pixel data
+    img = img.astype('float32')
+    img = img / 255.0
+    return img
 
 def resize_image(path,size):
     img=cv2.imread(path)
