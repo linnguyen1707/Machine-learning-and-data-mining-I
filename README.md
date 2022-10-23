@@ -1,4 +1,4 @@
-## ****Image Classification with CIFAR-100 dataset****
+l## ****Image Classification with CIFAR-100 dataset****
 
 These notebooks is mid-term project for machine-learning-and-data-mining-I class.
 
@@ -26,7 +26,7 @@ CIFAR-100 is a computer vision data set used for object recognition. This datase
 |insects                        | 	bee, beetle, butterfly, caterpillar, cockroach    |
 |large carnivores               |	bear, leopard, lion, tiger, wolf                    |
 |large man-made outdoor things	|  	bridge, castle, house, road, skyscraper           |
-|large natural outdoor scenes   | cloud, forest, mountain, plain, sea                 |
+|large natural outdoor scenes   | scloud, forest, mountain, plain, sea                 |
 |large omnivores and herbivores |	camel, cattle, chimpanzee, elephant, kangaroo       |
 |medium-sized mammals	          |  	fox, porcupine, possum, raccoon, skunk            |
 |non-insect invertebrates       |   	crab, lobster, snail, spider, worm              |
@@ -44,8 +44,8 @@ The purpose of this project is to recognize an image and predict which of the 10
 
 The following model are used in this project
 
-- Logistic Regression
-- CNN
+- Logistic Regression (1 and 2 layer with neural net)
+- CNN (VGG)
 
 ## The Data Set
 
@@ -56,5 +56,12 @@ There are 500 training images and 100 testing images per class. The 100 classes 
 The dimension of a color image is 32x32 pixels and is made up of 3 channels (Red, Green, Blue = RGB) for each pixel present in them. The values for each channel range from 0 to 255, allowing each pixel in the image to be colored. Considering the above, you have 32 x 32 x 3 = 3072 data per image.
 
 <img src="./images/Image3.png" />
+
+## Folder Structure
+- Convolutional-NN-Model : Traing History and CNN Model
+- Logistic-Regression-Model : Training History and Logistic Regression Model
+- Data : CIFAR100 dataset
+- images : Image of readme and trainging history
+- History-report : Training History in csv format
 
 ## Results
