@@ -3,6 +3,8 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from numpy import asarray
+import matplotlib.pyplot as plt
+
 def load_image(img):
     # convert to array
     img = asarray(img)
